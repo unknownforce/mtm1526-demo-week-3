@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Intro to JQuery</title>
+	<link href="css/general.css" rel="stylesheet">
+</head>
+
+<body>
+	<a href="http://google.com">Free Porn!</a>
+	
+	<form>
+		<label for="item">Item</label>
+		<input id="item">
+		<button type="submit">Add Item</button>
+	</form>
+	
+	<ul class="todo"></ul>
+
+	<!--
+		Loading jQuery from Google's CDN is more efficent than downlaoding into your 'js' folder.
+		It will be served from the Google server nearest your user
+		and, if your user has been to another website that also uses Google's CDN, it will be cached.
+	-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<!--
+		It's important that jQuery is above your Javascript file
+		so it gets downloaded and parsed first.
+	-->
+	<script src="js/todo.js"></script>
+</body>
+</html>

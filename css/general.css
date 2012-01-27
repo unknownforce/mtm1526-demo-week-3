@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+li {
+	cursor:pointer;	
+}
+
+.done {
+	color:#0F0;	
+}
